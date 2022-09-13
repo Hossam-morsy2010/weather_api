@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--font awesome-->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Antonio:wght@100;200;300;400;500;600&family=Combo&family=Finlandica:ital,wght@0,400;1,400;1,700&family=Handlee&family=Lobster&family=Macondo&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <!--bootstrap style sheet-->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <!--css main file-->
+    <link rel="stylesheet" href="css/main_style.css" />
+    <title>weather</title>
+  </head>
+  <body class="bg-light">
+    <section class="container">
+      <main class="row justify-content-center mt-5">
+        <div
+          class="header_container col-10 rounded-4 shadow-lg align-items-center row"
+        >
+          <h1 class="text-center text-white main_header">
+            search country weather
+          </h1>
+          <div class="input-group col-7">
+            <input
+              type="text"
+              class="form-control rounded-0 me-1 my_input"
+              placeholder="Enter a country name"
+              aria-label="Recipient's username"
+              aria-describedby="button-addon2"
+              title="please enter your country name in small letters"
+            />
+            <button
+              class="btn btn-outline-secondary rounded-0 bg-light ms-1 my_btn"
+              type="button"
+              id="button-addon2"
+            >
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </div>
+        </div>
+      </main>
+      <!--main body-->
+      <main class="row justify-content-center mt-5 my_main"></main>
+    </section>
+    <!--font awesome js file-->
+    <script src="js/all.min.js"></script>
+    <!--bootstrap js files-->
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <!--js main file-->
+    <script src="js/main.js"></script>
+  </body>
+</html>
